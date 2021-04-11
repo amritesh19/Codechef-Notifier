@@ -51,29 +51,29 @@ function checkResult() {
                                         ver.items.push({title: "Time: ", message: String(n)+"s"}); 
                                         break;
 								
-                case"accepted":			ver.items.push({title: "Verdict: ", message: "Accepted!!"});                                        
+                case"accepted":		ver.items.push({title: "Verdict: ", message: "Accepted!!"});                                        
                                         ver.items.push({title: "Score: ", message: String(a)});
                                         ver.items.push({title: "Time: ", message: String(n)+"s"});  
                                         break;
 
-                case"wrong":		    ver.items.push({title: "Verdict: ", message: "Wrong!!"});                                                                                
+                case"wrong":		ver.items.push({title: "Verdict: ", message: "Wrong!!"});                                                                                
                                         ver.items.push({title: "Score: ", message: String(a)});
                                         ver.items.push({title: "Time: ", message: String(n)+"s"});
                                         break;
 
-                case"time":				ver.items.push({title: "Verdict: ", message: "Time Limit Exceeded!!"});
+                case"time":		ver.items.push({title: "Verdict: ", message: "Time Limit Exceeded!!"});
                                         break;
 
-                case"runtime":			ver.items.push({title: "Verdict: ", message: "Runtime Error("+e+")!!"});
+                case"runtime":		ver.items.push({title: "Verdict: ", message: "Runtime Error("+e+")!!"});
                                         break;
                 
-                case"compile":		    ver.items.push({title: "Verdict: ", message: "Compilation Error!!"});                                        
+                case"compile":		ver.items.push({title: "Verdict: ", message: "Compilation Error!!"});                                        
                                         break;
 
-                case"score":		    ver.items.push({title: "Verdict: ", message: "Insufficient Score!!"});                                        
+                case"score":		ver.items.push({title: "Verdict: ", message: "Insufficient Score!!"});                                        
                                         break;
 
-                case"error":			ver.items.push({title: "Verdict: ", message: "Internal Error!!"});                                        
+                case"error":		ver.items.push({title: "Verdict: ", message: "Internal Error!!"});                                        
                                         break;
               }
 
