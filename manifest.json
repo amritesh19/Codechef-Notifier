@@ -1,0 +1,18 @@
+{
+    "name": "Codechef Notifier",
+    "description": "No more waiting",
+    "version": "0.1",
+    "manifest_version": 2,
+    "permissions": ["webRequest","*://*.codechef.com/*","storage","notifications"],
+    "background":{
+        "scripts": ["jquery.js","background.js"],
+        "persistent" : true
+    },
+    "content_scripts": [
+        {
+          "matches": ["https://www.codechef.com/submit/*"],
+          "js": ["contentScript.js"]
+        }
+      ]
+
+}
